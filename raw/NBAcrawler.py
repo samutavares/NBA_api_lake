@@ -7,7 +7,7 @@ import requests
 # Set up argument parser
 parser = argparse.ArgumentParser()
 parser.add_argument("--endpoint")
-parser.add_argument("--api_key", default="1d89f363-6868-4a8b-b17a-9344bb084c78")
+parser.add_argument("--api_key", default="")
 parser.add_argument("--date", action='append', help="Specify dates for the API call")
 args = parser.parse_args()
 
