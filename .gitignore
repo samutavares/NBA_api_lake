@@ -1,3 +1,5 @@
 raw/data
 __pycache__
 nba.db
+*Db.*
+*.db*
